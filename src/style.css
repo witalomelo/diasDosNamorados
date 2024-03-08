@@ -1,0 +1,46 @@
+body {
+    background-color: #fdb6b6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    width: 600px;
+    height: 600px;
+    margin-top: 80px;
+}
+
+.textoFrase {
+    font-style: italic;
+    color: #f02b1d;
+    text-align: center;
+}
+
+/* Estilo básico do botão */
+.btn {
+    background-color: #f85858; /* Cor de fundo */
+    border: none; /* Remover borda */
+    color: rgb(12, 12, 12); /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Remover sublinhado */
+    display: inline-block; /* Exibir como bloco */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor ao passar por cima */
+    border-radius: 8px; /* Borda arredondada */
+    transition-duration: 0.4s; /* Duração da transição */
+  }
+  
+  /* Mudança de cor ao passar o mouse */
+  .btn:hover {
+    background-color: #f72718; /* Cor de fundo alterada */
+    color: white; /* Cor do texto */
+  }
+  
